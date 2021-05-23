@@ -1,0 +1,447 @@
+body{
+      margin: 0;
+      padding:0;
+      border: 0;
+    }
+    .cover{
+      height: 600px;
+      width: 100vw;
+      /*border: 5px solid blue;*/ 
+      background: url("images/bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .Container{
+      /*border: 5px solid red;*/
+      height: 120px;
+      width: 90vw;
+      position: absolute;
+      top: 30px;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+    }
+    .logo{
+      /*border: 5px solid red;*/
+      width: 150px;
+      height: 100px;
+      align-items: center;
+      display: flex;
+      margin-left: 40px;
+      background-color: black;
+    }
+    .logo p{
+      font-size: 3.5rem;
+      color: white;
+      height: 100px;
+      align-items: center;
+    }
+    .logo h4{
+      margin-bottom: 50px;
+      font-size: 2.5rem;
+      margin-left: -130px;
+      margin-top: 100px;
+      width: 180px;
+      color: white;
+    }
+    .navbarItems{
+      /*border: 5px solid blue;*/
+      width: 600px;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+      margin-left: 20px;
+
+    }
+    .socialMediaIcons{
+      /*border: 5px solid green;*/
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 10px;
+      margin-left: 10px;
+      position: absolute;
+      top: 15%;
+      left: 80%;
+      transform: translate(-50%,-50%);
+    }
+    .socialMediaIcons img{
+      height: 50px;
+      /*border: 5px solid pink;*/
+      width: 50px;
+    }
+    .navItem{
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+    }
+    .navbar{
+      /*border: 5px solid blue;*/
+      display: flex;
+      position: absolute;
+      top: 15%;
+      left: 30%;
+      transform: translate(-50%,-50%);
+    }
+
+    .header{
+      font-size: 94px;
+      font-weight: 100;
+      margin: 0;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .center{
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+    .head{
+      text-align: center;
+      color: darkgray;
+      font-size: 1rem;
+    }
+    h4{
+      text-align: center;
+    }
+    a img {
+      width: 100%;
+    }
+    button{
+      border-radius: 35px;
+      height: 45px;
+    }
+    .containerTrend{
+      height: 400px;
+      /*border: 5px solid blue;*/ 
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    .trendContainer{
+        height: 100%;
+        width: 80%; 
+        /*border: 5px solid green;*/
+        margin: 20px; 
+        display: flex; 
+        justify-content: space-around;
+    }
+    .trend{
+       height: 350px;
+       width: 23%; 
+       /*border: 5px solid red;*/ 
+       float: left;
+       margin-right: 10px;
+       margin-top: 10px;
+     }
+    .trendButton{
+       height: 50px;
+       width: 100vw;
+       /*border: 5px solid blue;*/
+       display: flex; 
+       justify-content: center;
+       align-items: center; 
+       clear: both;
+       color: black;
+     }
+     .trendButton button:hover{
+      background-color: black;
+      color: white;
+     }
+
+     /*ARTISTS PAGE*/
+
+
+      .title{
+      margin-top: 20px;
+    }
+    .title p{
+      font-size: 3rem;
+    }
+    .containerArtists{
+      height: 400px; 
+      /*border: 5px solid blue;*/
+       display: flex; 
+       justify-content: center; 
+       align-items: center; 
+       margin-top: 20px;
+    }
+    .heading{
+        height: 50px;
+        /*border: 5px solid blue;*/
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        clear: both;
+        margin-top: 120px;
+    }
+    .aboutTitle{
+      margin-left: 25px;
+    }
+    .aboutHeading {
+      font-size: 3rem;
+      margin-top: 140px;
+    }
+    u{
+      color: red;
+    }
+    u:hover{
+      background-color: white;
+    }
+    .content{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("images/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .artist{
+      height: 300px;
+      width: 240px;
+      /*border: 5px solid red;*/ 
+      float: left;
+      margin-left: 7px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+   .currentArtist{
+      height: 100%;
+      width: 80%;
+      /*border: 5px solid green;*/ 
+      margin: 20px;
+      display: flex; 
+      justify-content: space-around;
+    }
+    a img {
+    height: 220px;
+    width: 240px
+  }
+    .releaseTitle{
+      margin-top: 20px;
+    }
+    .releaseTitle p{
+      font-size: 3rem;
+    }
+        .subscribeTitle{
+      margin-left: 25px;
+    }
+    .subscribeHeading {
+      text-align: center;
+      font-size: 3rem;
+    }
+    u{
+      color: red;
+    }
+    u:hover{
+      background-color: white;
+    }
+    .newsletter{
+      width: 100%;
+      height: 320px;
+      margin-left: 25px;
+    }
+    .newsletterOne{
+      width: 45%;
+      height: 320px;
+      float: left;
+      margin-left: 25px;
+    }
+    .newsletterTwo{
+      width: 45%;
+      height: 320px;
+      float: left;
+      margin-left: 25px;
+    }
+    .required{
+      float: right;
+    }
+    .email{
+      float: left;
+      margin-top: 50px;
+    }
+    .asterisk{
+      color: red;
+    }
+    .input{
+      margin-top: 100px;
+      justify-content: flex-start;
+    }
+    .view{
+      text-decoration: none;
+      color: black;
+    }
+    button{
+      border-radius: 25px;
+      height: 35px;
+    }
+    .tourContainer{
+      margin-top: 120px;
+    }
+     .tourTitle{
+      margin-top: 20px;
+    }
+    .tourTitle p{
+      font-size: 3rem;
+    }
+    .tours{
+      width: 100%;
+      height: 500;
+      
+    }
+    .tour1{
+      
+      width: 95%;
+      height: 400px;
+      margin-left: 50px;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+      margin-left: 25px;
+      background-image: url("images/bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .tourOne{
+      
+      width: 95%;
+      height: 400px;
+      margin-top: 100px;
+      margin-left: 50px;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+      margin-left: 25px;
+      background-image: url("images/bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .tourTwo{
+      
+      width: 95%;
+      height: 400px;
+      margin-top: 100px;
+      margin-left: 50px;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+      margin-left: 25px;
+      background-image: url("images/bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .tourThree{
+      
+      width: 95%;
+      height: 400px;
+      margin-top: 100px;
+      margin-left: 50px;
+      letter-spacing: 1px;
+      margin-bottom: 35px;
+      margin-left: 25px;
+      background-image: url("images/bg.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .update{
+      margin-left: 25px;
+    }
+    .details{
+      margin-left: 25px;
+      width: 100%;
+      height: 200px;
+    }
+    .information{
+      width: 85%;
+      height: 100px;
+      color: black;
+      float: left;
+    }
+    .information a{
+      text-decoration: none;
+    }
+    .information p{
+      color: black;
+    }
+    #info{
+      color: gray;
+    }
+    .button{
+      width: 15%;
+      height: 100px;
+      color: black;
+      float: right;
+      margin-top: -80px;
+    }
+    .button button{
+      border-radius: 25px;
+      height: 35px;
+    }
+    .button button:hover{
+      color: white;
+      background-color: black;
+    }
+    .dates{
+      width: 100%;
+      height: 100px;
+      margin-left: 25px;
+      margin-top: 70px;
+    }
+    .date{
+      width: 23%;
+      height: 100px;
+      float: left;
+      color: black;
+    }
+    .date h6{
+      margin-top: 5px;
+    }
+    .date button{
+      border-radius: 25px;
+      height: 35px;
+
+    }
+    .date button:hover{
+      color: white;
+      background-color: black;
+    }
+     .containerFooter{
+         height: 50px; 
+         /*border: 5px solid blue;*/
+         display: flex; 
+         justify-content: center;
+         align-items: center;
+    }
+    .footer{
+        height: 100%;
+        width: 80%;
+        /*border: 5px solid green;*/ 
+        margin: 20px;
+        display: flex; 
+        justify-content: space-around;
+   }
